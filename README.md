@@ -15,20 +15,20 @@ npm i number-random
 ```javascript
 
 const random = require('number-random');
-//import random from 'number-random';
 
 random(0,1);     // 0 or 1
 random(1);       // 0 or 1
 random(100);     // 0~100
 random(100,999); // 100~999
 random(100,999,true);   //663.7264946557116
+random(100,999,4);      //346.5673
 random(0,1,true);       //0.1557056098245
 random();               //0.3497616536915302
 
 ```
 
 ## Contribute
-[Maichong Software](http://maichong.it)
+[Maichong Cloud](http://maichong.io)
 
 [Liang Xingchen](https://github.com/liangxingchen)
 
